@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: hsl(300, 46%, 37%);
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    margin-left: 3%;
+}
+#icon{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: white;
+    margin-left: 5%;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0px 0px 30%;
+}
+#options{
+    margin-right: 15%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#options:hover{
+    color: white;
+    font-size: 30px;
+    transition: all 0.2s linear;
+}
+#home{
+    display: flex;
+}
+h3{
+    font-size: 40px;
+    margin: 12% 0px 0px 20%;
+}
+h4{
+    font-size: 40px;
+    margin: 0px 0px 0px 20%;
+}
+#name{
+    font-size: 60px;
+    margin: 0px 0px 0px 20%;
+    color: rgb(255, 255, 255);
+    text-shadow: 15px 8px 10px black;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    animation: animation1 1s linear 0s calc(1) forwards;
+}
+#role{
+    font-size: 55px;
+    margin: 5px 0px 0px 20%;
+    text-shadow: 65px 20px 30px rgb(20, 16, 16);
+    color: #01fe87;
+    animation: animation2 0.5s linear 0s calc(1) forwards;
+}
+.about{
+    display: flex;
+    margin: 5% 0px 0px 15%;
+    font-size: 30px;
+    height: 55vh;
+}
+#bio{
+    height: 20vh;
+    width: 50%;
+    margin-top: 7%;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.my-image{
+    height: 55vh;
+    margin-left: 12%;
+    background-image: url('5f352bae-9082-40c3-a6b7-408d2a280fef.png');
+    background-size:40vh;
+    background-position: 15px;
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+}
+.services{
+    background-color: rgb(0, 114, 181);
+    display: flex;
+    justify-content: space-evenly;
+    height: 75vh;
+}
+.box{
+    border-radius: 10px;
+    height: 30vh;
+    width: 30%;
+    margin-top: 10%;
+    box-shadow: 30px 40px 20px black;
+    background: white;
+}
+.hcj{
+    height: 30vh;
+    padding-left: 50px;
+}
+.react{
+    height: 25vh;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.video{
+    height: 30vh;
+    padding-left: 120px;
+}
+.projects{
+    background-color: rgb(54, 57, 69);
+    height: 100vh;
+}
+.projects-row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box-1{
+    height: 35vh;
+    width: 45%;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color: rgb(0, 161, 112);
+    border-radius: 15px;
+}
+#a{
+    padding-left: 15%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 25px;
+}
+.content{
+    text-align: center;
+    color: black;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+}
+.contact{
+    background-color: rgb(85, 180, 176);
+    height: 35vh;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+}
+#info{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 5%;
+}
+.social-media{
+    display: flex;
+    padding-top: 2%;
+    padding-left: 45%;
+}
+.instagram{
+    height: 5vh;
+    margin-right: 15px;
+}
+.linkdin{
+    height: 4.7vh;
+    margin-right: 15px;
+}
+.github{
+    height: 5vh;
+    margin-right: 15px;
+    transition: all 0s;
+}
+.instagram:hover{
+    height: 8vh;
+    transition: all 0.5s linear;
+}
+.linkdin:hover{
+    height: 8vh;
+    transition: all 0.5s linear;
+}
+.github:hover{
+    height: 8vh;
+    transition: all 0.5s linear;
+}
+@keyframes animation1 {
+    from{transform: translatex(600px);}
+    to {transform: translatex(0px);}
+}
+@keyframes animation2 {
+    from{transform: translatey(-100px)}
+    to {transform: translatey(0px);}
+}
